@@ -9,7 +9,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin: 0.5rem 1rem;
+    margin: 1.5rem 1.5rem;
 }
 
 .hamburger {
@@ -23,7 +23,7 @@ body {
 
 .top {
     display: flex;
-    margin: 2rem 1rem;
+    margin: 4rem 1.5rem;
 }
 
 .top-left {
@@ -39,7 +39,7 @@ body {
 }
 
 .top-left-title__middle {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .top-right {
-    height: 300px;
+    height: 400px;
     position: absolute;
     top: 5%;
     left: 58%;
@@ -78,6 +78,7 @@ body {
     background: white;
     padding: 10px 30px;
     display: block;
+    font-size: 24px;
 }
 
 .top-companies-banner {
@@ -94,4 +95,17 @@ body {
 
 .top-companies-banner-text {
     line-height: 20px;
+}
+
+.top-companies-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    margin: 2rem 1.5rem;
+}
+
+.icon-box {
+    width: 157px;
 }
