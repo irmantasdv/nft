@@ -84,7 +84,6 @@ body {
     background-image: url(./assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     padding: 3rem 1.5rem 1rem 1.5rem;
 }
 
