@@ -47,6 +47,8 @@ body {
     color: grey;
     text-align: left;
     line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .top-left>* {
@@ -94,7 +96,9 @@ body {
 }
 
 .top-companies-banner-text {
-    line-height: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .top-companies-icons {
@@ -103,9 +107,103 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px 20px;
-    margin: 2rem 1.5rem;
+    margin: 3.5em 1.5rem;
 }
 
 .icon-box {
     width: 157px;
+}
+
+.middle {
+    margin: 2rem 1.5rem;
+}
+
+.middle-title {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.middle-description {
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+.card-wraper {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    min-width: 250px;
+    border-radius: 15px;
+    margin-bottom: 0;
+    font-size: 0;
+}
+
+.card-text-container {
+    padding: 2px 16px;
+    height: 100px;
+    background-color: #eeee;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.card-text-left {
+    text-align: left;
+}
+
+.card-text-right {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.card-text-left_orange {
+    color: #ff8039;
+}
+
+.card-text {
+    color: grey;
+}
+
+.second-line {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.eth-image {
+    float: left;
+    margin-left: -1.5rem;
+}
+
+hr {
+    margin: 4rem auto;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}
+
+.bottom {
+    display: flex;
+    margin: 4rem 1.5rem;
+    position: relative;
+    padding: 2rem 1.5rem;
+}
+
+.bottom {
+    position: relative;
+    border-bottom: 3px solid #ccc;
+    border-width: 1px;
+    margin: 0;
+}
+
+.bottom-image {
+    height: 400px;
+    position: absolute;
+    left: 68%;
+    bottom: 0;
 }
